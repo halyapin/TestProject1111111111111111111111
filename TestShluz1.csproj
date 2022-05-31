@@ -16,4 +16,13 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="102.0.5005.6102" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="PageObjectModel\Endpoints\" />
+    <Folder Include="PageObjectModel\Adapters\" />
+    <Folder Include="PageObjectModel\Vs\" />
+    <Folder Include="PageObjectModel\TestTask\" />
+    <Folder Include="PageObjectModel\MagRequests\" />
+    <Folder Include="PageObjectModel\MagResponses\" />
+  </ItemGroup>
+
 </Project>

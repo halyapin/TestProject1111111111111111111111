@@ -8,9 +8,9 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace TestShluz1.Tests
+namespace TestShluz1
 {
-    internal class LoginPositiveTest: Main.BrowserShluz
+    internal class LoginPositiveTest: BrowserShluz
 
     {
         [Test]

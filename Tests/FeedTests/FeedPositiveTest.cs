@@ -8,7 +8,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace TestShluz1.Tests
+/*namespace TestShluz1.Tests
 {
     internal class FeedPositiveTest: BaseTest
 
@@ -18,7 +18,7 @@ namespace TestShluz1.Tests
         public void adminRedirect()
         {
             
-            driver.FindElement(_adminLocator).Click();
+            //driver.FindElement(_adminLocator).Click();
 
        // Assert.That(driver.FindElement(_userNameLocator).Text.Contains("Administrator"), Is.True, "Administrator");
            
@@ -26,3 +26,4 @@ namespace TestShluz1.Tests
 
     }
 }
+*/

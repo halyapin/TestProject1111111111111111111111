@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestShluz1.PageObjectModel
+namespace TestShluz1
 {
     //создаем класс логина
-    internal class DashboardPageShluz
+    internal class DashboardPageShluz: BrowserShluz
     {
         private IWebDriver _driver;
 

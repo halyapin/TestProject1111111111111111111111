@@ -1,0 +1,9 @@
+﻿Assert.Equals(obj1, obj2); // Object comparison
+Assert.AreEqual(HomeUrl, driver.Url); // Overloaded, comparison. Same object value
+Assert.AreNotEqual(HomeUrl, driver.Url);
+Assert.AreSame("https://www.google.com", URL); // For the same object reference
+
+Assert.IsTrue(driver.WindowHandles.Count.Equals(2));
+Assert.IsFalse(driver.WindowHandles.Count.Equals(2));
+
+Assert.IsNull(URL); Assert.IsNotNull(URL);
